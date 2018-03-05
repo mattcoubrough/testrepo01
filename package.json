@@ -4,6 +4,7 @@
   "description": "\"# testrepo01\" \r \"# testrepo01\"",
   "main": "src/index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/mattcoubrough/testrepo01/issues"
   },
-  "homepage": "https://github.com/mattcoubrough/testrepo01#readme"
+  "homepage": "https://github.com/mattcoubrough/testrepo01#readme",
+  "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0"
+  },
+  "czConfig": {
+    "path":"node_modules/cz-conventional-changelog"
+  }
 }
